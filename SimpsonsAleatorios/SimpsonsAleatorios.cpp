@@ -42,7 +42,7 @@ static int callback(void* consulta_vacia_f, int argc, char** argv, char** azColN
 
 int menu_reinicio(std::string consulta_SQL_f, Consulta* consulta_actual_f);
 
-const char* dir = "DB\\simpsons.db";
+const char* dir = "simpsons.db";
 
 int main()
 {
