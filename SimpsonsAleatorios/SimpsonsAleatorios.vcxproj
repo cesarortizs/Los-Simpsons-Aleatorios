@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\sqlite-amalgamation-3450300\sqlite-amalgamation-3450300\sqlite3.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\sqlite-amalgamation-3450300\sqlite-amalgamation-3450300\sqlite3.c" />
     <ClCompile Include="SimpsonsAleatorios.cpp" />
   </ItemGroup>
   <ItemGroup>

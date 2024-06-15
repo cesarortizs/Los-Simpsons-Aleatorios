@@ -18,7 +18,7 @@
     <ClCompile Include="SimpsonsAleatorios.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\sqlite-amalgamation-3450300\sqlite-amalgamation-3450300\sqlite3.c">
+    <ClCompile Include="..\..\..\..\..\Downloads\sqlite-amalgamation-3450300\sqlite-amalgamation-3450300\sqlite3.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

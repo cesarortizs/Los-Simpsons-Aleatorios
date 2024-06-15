@@ -1,2 +1,4 @@
-﻿  SimpsonsAleatorios.cpp
-  SimpsonsAleatorios.vcxproj -> C:\Users\C\Documents\ProyectosProgra\SimpsonsAleatorios\x64\Debug\SimpsonsAleatorios.exe
+﻿  sqlite3.c
+  SimpsonsAleatorios.cpp
+  LINK : no se encontró C:\Users\C\Documents\Github\Simpsonsaleatorios\Los-Simpsons-Aleatorios\x64\Debug\SimpsonsAleatorios.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+  SimpsonsAleatorios.vcxproj -> C:\Users\C\Documents\Github\Simpsonsaleatorios\Los-Simpsons-Aleatorios\x64\Debug\SimpsonsAleatorios.exe

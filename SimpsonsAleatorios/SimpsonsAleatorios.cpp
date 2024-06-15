@@ -14,23 +14,32 @@ struct Consulta
 };
 
 Consulta reestablecer_consulta();
+
 int menu_principal(Consulta *consulta_actual_f);
 int menu_halloween(Consulta *consulta_actual_f);
 int menu_recomendaciones(Consulta *consulta_actual_f);
+
 std::string obtener_recomendaciones();
+
 int menu_consulta(Consulta* consulta_actual_f);
+
 std::string seleccionar_temporada();
 std::string seleccionar_rango(int opcion);
+
 void evaluar_rango(Consulta* consulta_actual_f);
+
 void consulta_temporada(Consulta* consulta_actual_f);
 void consulta_rango(Consulta* consulta_actual_f);
 void consulta_aleatoria(Consulta* consulta_actual_f);
+
 std::string agregar_parametros_consulta(std::string consulta_SQL_construccion, Consulta* consulta_actual_f);
 std::string dar_formato_numero(std::string numero);
 std::string agregar_num_recomendaciones(std::string num_recomendaciones);
 std::string evaluar_halloween(std::string consulta_f, bool es_halloween);
+
 static int selectData(const char* s, std::string consulta_SQL_f, Consulta *consulta_actual_f);
 static int callback(void* consulta_vacia_f, int argc, char** argv, char** azColName);
+
 int menu_reinicio(std::string consulta_SQL_f, Consulta* consulta_actual_f);
 
 const char* dir = "DB\\simpsons.db";
