@@ -1,52 +1,51 @@
-# Los-Simpsons-Aleatorios
+<h1> Los Simpsons Aleatorios </h1>
 
-A todos nos pasa, llegamos cansados de la escuela o trabajo, pedimos algo de cenar y nos preparamos para ver otro episodio mas de nuestra familia amarilla favorita, sin embargo, hay tantas temporadas y episodios que simplemente no sabemos cual elegir.
+A todos nos pasa, llegamos cansados de la escuela o trabajo, pedimos algo de cenar y nos preparamos para ver otro episodio más de nuestra familia amarilla favorita, sin embargo, hay tantas temporadas y episodios que simplemente no sabemos cuál elegir.
 
-Ya no mas, con este "randomizer" de episodios de los simpsons solo tendras que seleccionar las especificaciones de tu consulta y obtendras un lista de capitulos con
-esas caracteristicas, reduciendo la carga de tener que seleccionar entre cientos y cientos de estos.
+Ya no más, con este "randomizer" de episodios de los Simpsons solo tienes que seleccionar las especificaciones de tu consulta y obtendrás un lista de capítulos con esas características, reduciendo la carga de tener que seleccionar entre cientos y cientos de estos.
 
-# ¿Como se creo?
+<h2> ¿Como se creó? </h2> 
 
-El programa utiliza una base de datos embebida (SQLite) que cree con todos los capitulos de Los Simpsons, de la temporada 1 a la temporada 34, esta cuenta con el
-titulo del capitulo, una breve descripcion, la temporada a la que pertenece y si este es un episodio de halloween o no.
+El programa utiliza una base de datos embebida (SQLite) que cree con todos los capítulos de Los Simpsons, de la temporada 1 a la temporada 34, esta cuenta con el título del capítulo, una breve descripción, la temporada a la que pertenece y si este es un episodio de Halloween o no.
 
-# ¿Como funciona?
+<h2> ¿Como funciona? </h2>
 
-Por defecto el programa comenzara con un consulta basica, la cual buscara todo tipo de capitulos y solo mostrara una recomendacion.
+Por defecto el programa comenzara con un consulta básica, la cual buscara todo tipo de capítulos y solo mostrara una recomendación.
 
-El programa se basa principalmente en tres menus
+El programa se basa principalmente en tres menús:
 
-# Menu principal
+<h3> Menú principal </h3>
 
 Al iniciar tendremos cuatro opciones:
 
-Realizar consulta: Nos pasara directamente al menu de consultas
+<b>Realizar consulta:</b> Nos pasara directamente al menú de consultas.
 
-Solo mostrar episodios de halloween: Nos pasara a un menu donde podremos seleccionar si queremos que la consulta solo nos muestre capitulos de halloween (legendarios para todo fanatico de Los Simpsons), o todo tipo de capitulos
+<b>Solo mostrar episodios de Halloween:</b> Nos pasara a un menú donde podremos seleccionar si queremos que la consulta solo nos muestre capítulos de Halloween (legendarios para todo fanático de Los Simpsons), o todo tipo de capítulos.
 
-Seleccionar numero de recomendaciones: Nos pasara a un menu donde podremos seleccionar cuantas recomendaciones queremos que se nos muestre en una misma consulta,
-podremos elegir entre una y diez
+<b>Seleccionar número de recomendaciones:</b> Nos pasara a un menú donde podremos seleccionar cuantas recomendaciones queremos que se nos muestre en una misma consulta,
+podremos elegir entre una y diez.
 
-Salir del programa: Cierra el programa
+<b>Salir del programa:</b> Cierra el programa.
 
-# Menu consulta
+<h3> Menú consulta </h3>
 
 Tendremos tres tipos de consultas en el programa:
 
-Consulta por temporada: Aqui buscaremos capitulos exclusivamente en la temporada que seleccionemos
+<b>Consulta por temporada:</b> Buscara capítulos exclusivamente en la temporada que seleccionemos.
 
-Consulta por rango: Aqui buscaremos capitulos en el rango de temporadas que hemos seleccionado
+<b>Consulta por rango:</b> Buscara capítulos en el rango de temporadas que hemos seleccionado.
 
-Consulta aleatoria: Aqui buscaremos capitulo en todas las temporadas
+<b>Consulta aleatoria:</b> Buscara capítulo en todas las temporadas.
 
-# Menu reinicio
+<h3> Menú reinicio </h3> 
 
 Tendremos tres opciones al terminar la consulta:
 
-Reinicio rapido: Nos permitira realizar rapidamente otra consulta con los mismos parametros y el tipo de consulta que ya hemos seleccionado
+<b>Reinicio rápido:</b> Nos permitirá realizar rápidamente otra consulta con los mismos parámetros y el tipo de consulta que ya hemos seleccionado.
 
-Reinicio completo: Reestablecera todos los parametros nuestra consulta a los parametros por defecto (todo tipo de episodios y solo una recomendacion) y posteriormente nos regresara al menu principal
+<b>Reinicio completo:</b> Reestablecerá todos los parámetros nuestra consulta a los parámetros por defecto (todo tipo de episodios y solo una recomendación) y posteriormente nos regresara al menú principal.
 
-Regresar al menu principal: Nos regresara al menu principal sin reestablecer ningun parametro de nuestra consulta (ej. Si la consulta anterior buscaba tres recomendaciones, entonces la siguiente consulta tambien lo hara a menos que modifiquemos esto manualmente)
+<b>Regresar al menú principal:</b> Nos regresara al menú principal sin reestablecer ningún parámetro de nuestra consulta (ej. Si la consulta anterior buscaba tres recomendaciones, entonces la siguiente consulta también lo hará a menos que modifiquemos esto manualmente).
+
 
 
