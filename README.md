@@ -2,7 +2,7 @@
 
 A todos nos pasa, llegamos cansados de la escuela o trabajo, pedimos algo de cenar y nos preparamos para ver otro episodio más de nuestra familia amarilla favorita, sin embargo, hay tantas temporadas y episodios que simplemente no sabemos cuál elegir.
 
-Ya no más, con este "randomizer" de episodios de los Simpsons solo tienes que seleccionar las especificaciones de tu consulta y obtendrás un lista de capítulos con esas características, reduciendo la carga de tener que seleccionar entre cientos y cientos de estos.
+Ya no más, con este "randomizer" de episodios de los Simpsons solo tienes que seleccionar las especificaciones de tu consulta y obtendrás un lista de capítulos con esas características, reduciendo la carga de tener que escoger entre cientos y cientos de estos.
 
 <h2> ¿Como se creó? </h2> 
 
